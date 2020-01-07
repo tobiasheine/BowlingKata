@@ -2,10 +2,8 @@ import kotlin.math.min
 
 class BowlingGame {
 
-    private var frames: List<Frame> = emptyList()
-
-    fun rolls(input: String) {
-        frames = input
+    fun score(input: String): Int {
+        val frames = input
             .split(Regex(" "))
             .mapIndexed { index, rolls ->
                 when {
@@ -17,16 +15,13 @@ class BowlingGame {
                     else -> RegularFrame(rolls)
                 }
             }
-    }
 
-    fun score(): Int {
         return frames
             .mapIndexed { index, frame ->
                 frame.score(frames.drop(min(frames.size - 1, index + 1)))
             }
             .sum()
     }
-
 }
 
 
