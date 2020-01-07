@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfdcc077-ebf2-41ad-8ecd-4ef831e74786" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W0nm5RyXsMo0y6h5ycgCiwidFI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.BowlingGameTest.all spares">
+    <configuration name="BowlingGameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;BowlingGameTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BowlingGameTest.all spares" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;BowlingGameTest.all spares&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="BowlingGameTest.all strikes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;BowlingGameTest.all strikes&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpareFrameTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;SpareFrameTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="StrikeFrameTest.strike followed with strikes" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;StrikeFrameTest.strike followed with strikes&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.BowlingGameTest.all spares" />
+        <item itemvalue="Gradle.BowlingGameTest" />
+        <item itemvalue="Gradle.BowlingGameTest.all strikes" />
+        <item itemvalue="Gradle.StrikeFrameTest.strike followed with strikes" />
+        <item itemvalue="Gradle.SpareFrameTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfdcc077-ebf2-41ad-8ecd-4ef831e74786" name="Default Changelist" comment="" />
+      <created>1578295535568</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578295535568</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="202" key="#Project_Structure" timestamp="1578385131338">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="202" key="#Project_Structure/-1076.-1057.1920.1057/844.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1578385131338" />
+    <state x="440" y="202" key="#Project_Structure/0.23.1680.1027@0.23.1680.1027" timestamp="1578334353822" />
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578296157127">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="304" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1578296157127" />
+    <state x="-359" y="-814" key="#com.intellij.ide.util.MemberChooser" timestamp="1578399661196">
+      <screen x="-1076" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="627" y="259" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1578381946935" />
+    <state x="-359" y="-814" key="#com.intellij.ide.util.MemberChooser/844.-1057.1920.1057/-1076.-1057.1920.1057/0.23.1680.1027@-1076.-1057.1920.1057" timestamp="1578399661196" />
+    <state x="-389" y="-911" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1578401364415">
+      <screen x="-1076" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="-389" y="-911" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/844.-1057.1920.1057/-1076.-1057.1920.1057/0.23.1680.1027@-1076.-1057.1920.1057" timestamp="1578401364415" />
+    <state x="614" y="196" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1578385150301">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="614" y="196" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/-1076.-1057.1920.1057/844.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1578385150301" />
+    <state width="1878" height="356" key="GridCell.Tab.0.bottom" timestamp="1578413282851">
+      <screen x="-1076" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.0.bottom/-1076.-1057.1920.1057/844.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1578385164466" />
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1578384947730" />
+    <state width="1878" height="356" key="GridCell.Tab.0.bottom/844.-1057.1920.1057/-1076.-1057.1920.1057/0.23.1680.1027@-1076.-1057.1920.1057" timestamp="1578413282851" />
+    <state width="1878" height="356" key="GridCell.Tab.0.center" timestamp="1578413282851">
+      <screen x="-1076" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.0.center/-1076.-1057.1920.1057/844.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1578385164465" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1578384947729" />
+    <state width="1878" height="356" key="GridCell.Tab.0.center/844.-1057.1920.1057/-1076.-1057.1920.1057/0.23.1680.1027@-1076.-1057.1920.1057" timestamp="1578413282851" />
+    <state width="1878" height="356" key="GridCell.Tab.0.left" timestamp="1578413282850">
+      <screen x="-1076" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.0.left/-1076.-1057.1920.1057/844.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1578385164465" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1578384947729" />
+    <state width="1878" height="356" key="GridCell.Tab.0.left/844.-1057.1920.1057/-1076.-1057.1920.1057/0.23.1680.1027@-1076.-1057.1920.1057" timestamp="1578413282850" />
+    <state width="1878" height="356" key="GridCell.Tab.0.right" timestamp="1578413282851">
+      <screen x="-1076" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.0.right/-1076.-1057.1920.1057/844.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1578385164466" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1578384947730" />
+    <state width="1878" height="356" key="GridCell.Tab.0.right/844.-1057.1920.1057/-1076.-1057.1920.1057/0.23.1680.1027@-1076.-1057.1920.1057" timestamp="1578413282851" />
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom" timestamp="1578413282853">
+      <screen x="-1076" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.bottom/-1076.-1057.1920.1057/844.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1578385164467" />
+    <state width="1638" height="345" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1578381595048" />
+    <state width="1878" height="356" key="GridCell.Tab.1.bottom/844.-1057.1920.1057/-1076.-1057.1920.1057/0.23.1680.1027@-1076.-1057.1920.1057" timestamp="1578413282853" />
+    <state width="1878" height="356" key="GridCell.Tab.1.center" timestamp="1578413282852">
+      <screen x="-1076" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.center/-1076.-1057.1920.1057/844.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1578385164466" />
+    <state width="1638" height="345" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1578381595047" />
+    <state width="1878" height="356" key="GridCell.Tab.1.center/844.-1057.1920.1057/-1076.-1057.1920.1057/0.23.1680.1027@-1076.-1057.1920.1057" timestamp="1578413282852" />
+    <state width="1878" height="356" key="GridCell.Tab.1.left" timestamp="1578413282852">
+      <screen x="-1076" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.left/-1076.-1057.1920.1057/844.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1578385164466" />
+    <state width="1638" height="345" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1578381595047" />
+    <state width="1878" height="356" key="GridCell.Tab.1.left/844.-1057.1920.1057/-1076.-1057.1920.1057/0.23.1680.1027@-1076.-1057.1920.1057" timestamp="1578413282852" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right" timestamp="1578413282852">
+      <screen x="-1076" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.right/-1076.-1057.1920.1057/844.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1578385164467" />
+    <state width="1638" height="345" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1578381595047" />
+    <state width="1878" height="356" key="GridCell.Tab.1.right/844.-1057.1920.1057/-1076.-1057.1920.1057/0.23.1680.1027@-1076.-1057.1920.1057" timestamp="1578413282852" />
+    <state width="572" height="458" key="SwitcherDM" timestamp="1578400567272">
+      <screen x="-1076" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1680.1027@0.23.1680.1027" timestamp="1578382277568" />
+    <state width="572" height="458" key="SwitcherDM/844.-1057.1920.1057/-1076.-1057.1920.1057/0.23.1680.1027@-1076.-1057.1920.1057" timestamp="1578400567272" />
+    <state x="-350" y="-750" key="chooseDestDirectoryDialog" timestamp="1578400367740">
+      <screen x="-1076" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="635" y="321" key="chooseDestDirectoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1578382697961" />
+    <state x="-350" y="-750" key="chooseDestDirectoryDialog/844.-1057.1920.1057/-1076.-1057.1920.1057/0.23.1680.1027@-1076.-1057.1920.1057" timestamp="1578400367740" />
+    <state x="-483" y="-701" key="com.intellij.ide.util.TipDialog" timestamp="1578411770914">
+      <screen x="-1076" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="519" y="369" key="com.intellij.ide.util.TipDialog/-1076.-1057.1920.1057/844.-1057.1920.1057/0.23.1680.1027@0.23.1680.1027" timestamp="1578331900807" />
+    <state x="-483" y="-701" key="com.intellij.ide.util.TipDialog/844.-1057.1920.1057/-1076.-1057.1920.1057/0.23.1680.1027@-1076.-1057.1920.1057" timestamp="1578411770914" />
+    <state x="-369" y="-803" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1578400367800">
+      <screen x="-1076" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="619" y="270" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1578382698002" />
+    <state x="-369" y="-803" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/844.-1057.1920.1057/-1076.-1057.1920.1057/0.23.1680.1027@-1076.-1057.1920.1057" timestamp="1578400367800" />
+    <state x="-354" y="-891" key="refactoring.ChangeSignatureDialog" timestamp="1578401043433">
+      <screen x="-1076" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="-354" y="-891" key="refactoring.ChangeSignatureDialog/844.-1057.1920.1057/-1076.-1057.1920.1057/0.23.1680.1027@-1076.-1057.1920.1057" timestamp="1578401043433" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1578334464833">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1578334464833" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SpareFrame.kt</url>
+          <line>8</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BowlingGame.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BowlingGame.kt</url>
+          <line>20</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/StrikeFrame.kt</url>
+          <line>4</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/java/BowlingGame.kt</url>
+          <line>18</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Remote">
+        <watch expression="it.toString().toInt()" language="kotlin" />
+        <watch expression="frame.score(index, frames.drop(min(frames.size - 1, index + 1)))" language="kotlin" />
+        <watch expression="frames.drop(min(frames.size - 1, index + 1))" language="kotlin" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
