@@ -10,7 +10,7 @@ class StrikeFrameTest {
 
     @Test
     fun `strike followed with regular frames`() {
-        val score = StrikeFrame.score(nextFrames = listOf(StrikeFrame, RegularFrame("12")))
+        val score = StrikeFrame.score(nextFrames = listOf(RegularFrame("12")))
 
         assertThat(score).isEqualTo(13)
     }
@@ -19,26 +19,26 @@ class StrikeFrameTest {
     fun `strike followed with spare frame`() {
         val score = StrikeFrame.score(nextFrames = listOf(StrikeFrame, SpareFrame("1/")))
 
-        assertThat(score).isEqualTo(20)
+        assertThat(score).isEqualTo(21)
     }
 
     @Test
     fun `strike followed with strike`() {
-        val score = StrikeFrame.score(nextFrames = listOf(StrikeFrame, StrikeFrame))
+        val score = StrikeFrame.score(nextFrames = listOf(StrikeFrame))
 
         assertThat(score).isEqualTo(20)
     }
 
     @Test
     fun `strike followed with strikes`() {
-        val score = StrikeFrame.score(nextFrames = listOf(StrikeFrame, StrikeFrame, StrikeFrame))
+        val score = StrikeFrame.score(nextFrames = listOf(StrikeFrame, StrikeFrame))
 
         assertThat(score).isEqualTo(30)
     }
 
     @Test
     fun `strike followed with nothing`() {
-        val score = StrikeFrame.score(nextFrames = listOf(StrikeFrame))
+        val score = StrikeFrame.score(nextFrames = emptyList())
 
         assertThat(score).isEqualTo(10)
     }
