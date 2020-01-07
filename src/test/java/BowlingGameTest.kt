@@ -7,22 +7,19 @@ class BowlingGameTest {
 
     @Test
     fun `all strikes`() {
-        bowlingGame.rolls("X X X X X X X X X X X X")
-
-        assertThat(bowlingGame.score()).isEqualTo(300)
+        val score = bowlingGame.score("X X X X X X X X X X X X")
+        assertThat(score).isEqualTo(300)
     }
 
     @Test
     fun `every second pin a miss`() {
-        bowlingGame.rolls("9- 9- 9- 9- 9- 9- 9- 9- 9- 9-")
-
-        assertThat(bowlingGame.score()).isEqualTo(90)
+        val score = bowlingGame.score("9- 9- 9- 9- 9- 9- 9- 9- 9- 9-")
+        assertThat(score).isEqualTo(90)
     }
 
     @Test
     fun `all spares`() {
-        bowlingGame.rolls("5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/5")
-
-        assertThat(bowlingGame.score()).isEqualTo(150)
+        val score = bowlingGame.score("5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/ 5/5")
+        assertThat(score).isEqualTo(150)
     }
 }
