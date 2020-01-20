@@ -9,16 +9,20 @@ class BowlingGame {
                 when {
                     // because the format of the last roll differs between strikes and others
                     // e.g. X X X vs. 5/5
-                    rolls.length == 3 || index > 9 -> LastFrame(rolls)
+                    rolls.length == 3 || index > 8 -> NoBonusFrame(rolls)
                     rolls.contains("/") -> SpareFrame(rolls)
                     rolls == "X" -> StrikeFrame
-                    else -> RegularFrame(rolls)
+                    else -> NoBonusFrame(rolls)
                 }
             }
 
         return frames
             .mapIndexed { index, frame ->
-                frame.score(frames.drop(min(frames.size - 1, index + 1)))
+                val nextFrames = frames.drop(min(frames.size - 1, index + 1))
+                val nextPins = nextFrames.flatMap {
+                    it.pins
+                }
+                frame.score(nextPins)
             }
             .sum()
     }

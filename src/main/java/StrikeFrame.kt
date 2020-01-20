@@ -1,16 +1,13 @@
+import kotlin.math.min
+
+private const val STRIKE_NEXT_PINS_SCORE_BONUS = 2
+
 object StrikeFrame : Frame {
     override val pins: List<Int> = listOf(10)
 
-    override fun score(nextFrames: List<Frame>): Int {
-        val nextFrame = nextFrames.getOrNull(0)
-        return when (nextFrame) {
-            is RegularFrame, is SpareFrame -> pins.sum() + nextFrame.pins.sum()
-            is StrikeFrame -> {
-                val currentAndNextFrameSum = pins.sum() + nextFrame.pins.sum()
-                val nextAfterNextFrame = nextFrames.getOrNull(1)
-                nextAfterNextFrame?.let { currentAndNextFrameSum + it.pins.first() } ?: currentAndNextFrameSum
-            }
-            else -> 10
-        }
+    override fun score(nextPins: List<Int>): Int {
+        return pins.sum() + nextPins
+            .subList(0, min(nextPins.size, STRIKE_NEXT_PINS_SCORE_BONUS))
+            .sum()
     }
 }

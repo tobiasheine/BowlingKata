@@ -13,7 +13,8 @@ class SpareFrameTest {
     @Test
     fun `spare frame followed with regular frame`() {
         val spareFrame = SpareFrame("5/")
-        val score = spareFrame.score(listOf(RegularFrame("21")))
+        val nextFrames = listOf(NoBonusFrame("21"))
+        val score = spareFrame.score(nextPins = nextFrames.flatMap { it.pins })
 
         assertThat(score).isEqualTo(12)
     }
@@ -21,7 +22,8 @@ class SpareFrameTest {
     @Test
     fun `spare frame followed with spare`() {
         val spareFrame = SpareFrame("5/")
-        val score = spareFrame.score(listOf(SpareFrame("2/")))
+        val nextFrames = listOf(SpareFrame("2/"))
+        val score = spareFrame.score(nextFrames.flatMap { it.pins })
 
         assertThat(score).isEqualTo(12)
     }
@@ -29,7 +31,8 @@ class SpareFrameTest {
     @Test
     fun `spare frame followed with strike`() {
         val spareFrame = SpareFrame("5/")
-        val score = spareFrame.score(listOf(StrikeFrame))
+        val nextFrames = listOf(StrikeFrame)
+        val score = spareFrame.score(nextPins = nextFrames.flatMap { it.pins })
 
         assertThat(score).isEqualTo(20)
     }
