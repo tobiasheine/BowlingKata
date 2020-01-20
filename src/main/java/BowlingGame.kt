@@ -1,5 +1,3 @@
-import kotlin.math.min
-
 class BowlingGame {
 
     fun score(input: String): Int {
@@ -18,10 +16,8 @@ class BowlingGame {
 
         return frames
             .mapIndexed { index, frame ->
-                val nextFrames = frames.drop(min(frames.size - 1, index + 1))
-                val nextPins = nextFrames.flatMap {
-                    it.pins
-                }
+                val nextFrames = frames.drop(index + 1)
+                val nextPins = nextFrames.flatMap { it.pins }
                 frame.score(nextPins)
             }
             .sum()
