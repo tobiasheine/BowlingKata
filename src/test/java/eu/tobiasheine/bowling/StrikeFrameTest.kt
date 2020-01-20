@@ -1,3 +1,5 @@
+package eu.tobiasheine.bowling
+
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 
@@ -34,7 +36,10 @@ class StrikeFrameTest {
 
     @Test
     fun `strike followed with top strikes`() {
-        val nextFrames = listOf(StrikeFrame, StrikeFrame)
+        val nextFrames = listOf(
+            StrikeFrame,
+            StrikeFrame
+        )
         val score = StrikeFrame.score(nextPins = nextFrames.flatMap { it.pins })
 
         assertThat(score).isEqualTo(30)
@@ -42,7 +47,11 @@ class StrikeFrameTest {
 
     @Test
     fun `strike followed with three strikes`() {
-        val nextFrames = listOf(StrikeFrame, StrikeFrame, StrikeFrame)
+        val nextFrames = listOf(
+            StrikeFrame,
+            StrikeFrame,
+            StrikeFrame
+        )
         val score = StrikeFrame.score(nextPins = nextFrames.flatMap { it.pins })
 
         assertThat(score).isEqualTo(30)

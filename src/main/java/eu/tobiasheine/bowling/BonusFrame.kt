@@ -1,3 +1,5 @@
+package eu.tobiasheine.bowling
+
 import kotlin.math.min
 
 open class BonusFrame(

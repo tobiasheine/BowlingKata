@@ -1,3 +1,5 @@
+package eu.tobiasheine.bowling
+
 class BowlingGame {
 
     fun score(input: String): Int {

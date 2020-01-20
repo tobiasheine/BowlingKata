@@ -1,3 +1,5 @@
+package eu.tobiasheine.bowling
+
 class NoBonusFrame(private val roll: String) : Frame {
     override val pins: List<Int>
         get() = roll.asPins()

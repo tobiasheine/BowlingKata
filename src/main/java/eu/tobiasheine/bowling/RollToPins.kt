@@ -1,3 +1,5 @@
+package eu.tobiasheine.bowling
+
 fun String.asPins(): List<Int> {
     return mapIndexed { index, it ->
         when {
