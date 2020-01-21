@@ -1,8 +1,12 @@
 package eu.tobiasheine.bowling
 
-val parseFrame: (String) -> List<Frame> = { frames ->
+const val STRIKE_ROLL_CHAR = "X"
+const val SPARE_ROLL_CHAR = "/"
+const val EMPTY_ROLL_CHAR = "-"
+private const val FRAME_SEPARATOR = " "
+val parseFrames: (String) -> List<Frame> = { frames ->
     frames
-        .split(Regex(" "))
+        .split(Regex(FRAME_SEPARATOR))
         .mapIndexed { index, rolls ->
             val pins = rolls.asPins()
             when {

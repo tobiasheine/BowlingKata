@@ -8,6 +8,6 @@ abstract class BonusFrame(
 ) : Frame {
     override fun score(nextPins: List<Int>): Int =
         pins.plus(nextPins)
-            .let { allPins -> allPins.subList(0, min(allPins.size, pins.size + bonusPinScore)) }
+            .let { thisAndNextPins -> thisAndNextPins.subList(0, min(thisAndNextPins.size, pins.size + bonusPinScore)) }
             .sum()
 }
