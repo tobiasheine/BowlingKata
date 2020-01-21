@@ -1,8 +1,6 @@
 package eu.tobiasheine.bowling
 
-class NoBonusFrame(private val roll: String) : Frame {
-    override val pins: List<Int>
-        get() = roll.asPins()
+class NoBonusFrame(override val pins: List<Int>) : Frame {
 
     override fun score(nextPins: List<Int>): Int =
         pins.sum()
