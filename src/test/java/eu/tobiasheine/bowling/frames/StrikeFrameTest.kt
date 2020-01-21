@@ -1,5 +1,6 @@
-package eu.tobiasheine.bowling
+package eu.tobiasheine.bowling.frames
 
+import eu.tobiasheine.bowling.asPins
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.Test
 

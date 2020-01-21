@@ -1,4 +1,4 @@
-package eu.tobiasheine.bowling
+package eu.tobiasheine.bowling.frames
 
 import kotlin.math.min
 

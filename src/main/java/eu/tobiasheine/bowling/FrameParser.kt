@@ -1,5 +1,10 @@
 package eu.tobiasheine.bowling
 
+import eu.tobiasheine.bowling.frames.Frame
+import eu.tobiasheine.bowling.frames.NoBonusFrame
+import eu.tobiasheine.bowling.frames.SpareFrame
+import eu.tobiasheine.bowling.frames.StrikeFrame
+
 const val STRIKE_ROLL_CHAR = "X"
 const val SPARE_ROLL_CHAR = "/"
 const val EMPTY_ROLL_CHAR = "-"

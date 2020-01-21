@@ -1,4 +1,4 @@
-package eu.tobiasheine.bowling
+package eu.tobiasheine.bowling.frames
 
 class NoBonusFrame(override val pins: List<Int>) : Frame {
 
